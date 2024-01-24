@@ -26,6 +26,7 @@
                 "location-1": '#BCED6D1A',
                 "location-2": '#FDDD5F1A',
                 "location-3": '#629CF31A',
+                "footer-bg": '#131318',
               }
             }
           }
@@ -375,7 +376,7 @@
                         </div>
                     </div>
                     <!-- input -->
-                    <div class="lg:col-span-2">
+                    <div class="lg:col-span-2 p-6">
                         <form action="#">
                             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
                                 <div class="w-full">
@@ -419,8 +420,37 @@
         </section>
     </main>
     <!-- footer section -->
-    <footer>
-
-    </footer>
+    <footer class=" grid gap-14 grid-cols-2 lg:grid-cols-4 px-10 bg-footer-bg text-base-content mt-16 text-white py-20">
+        <aside class="space-y-2 col-span-2 lg:col-span-1 text-center">
+            <h1 class="text-3xl font-bold ">Get In Touch</h1>
+            <p>
+                Connect with us effortlessly through our 'Get In Touch' portal. Your questions, feedback, and inquiries matter to us. We're here to assist and value your engagement in our vibrant community.
+            </p>
+            <div class="space-y-3">
+                <p class=""><i class="fa-regular fa-envelope text-red-700 mx-4"></i>hockeys@support.com</p>
+                <p class=""><i class="fa-solid fa-phone text-red-700 mx-4"></i>(+62) 123-321-543</p>
+            </div>
+        </aside> 
+        <nav class="flex flex-col text-center space-y-4">
+            <header class="footer-title">Services</header> 
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav class="flex flex-col text-center space-y-4">
+            <header class="footer-title">Company</header> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav class="col-span-2 lg:col-span-1 flex flex-col text-center space-y-4">
+            <header class="footer-title">Legal</header> 
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
 </body>
 </html>
