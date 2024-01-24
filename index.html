@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys Shope</title>
+    <!--================Daisy UI & Tailwind Link===================-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--=================link font=================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--================tailwind custom color========================-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <!--==================custom style===========================-->
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+    <!-- header section -->
+    <header class="container mx-auto">
+        <!-- nav section -->
+        <nav></nav>
+        <!-- banner section -->
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full h-96 lg:h-auto">
+                  <img src="./Images/1.png" class="w-full h-52 lg:h-auto" />
+                  <!-- badge -->
+                  <div class="absolute top-1/2 lg:bottom-5 lg:right-14">
+                        <div class="rounded-lg lg:card w-full lg:w-96 bg-base-100 shadow-xl bg-slate-900">
+                            <div class="p-5 lg:card-body text-white">
+                                <h2 class="text-2xl font-semibold lg:card-title">Meet all the heroes from the field</h2>
+                                <p class="text-base font-normal text-slate-500">
+                                    Discover the champions who redefine the game. Our site brings you face-to-face with hockey's finest, sharing stories of skill, dedication, and triumph that resonate on and off the field
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="absolute flex transform w-full h-full lg:h-auto items-end justify-center -translate-y-1/2 lg:justify-start lg:left-14 lg:right-5 lg:bottom-5 bottom-1 space-x-3">
+                    <a href="#slide2" class="bg-slate-900 btn btn-circle text-white">❮</a> 
+                    <a href="#slide2" class="bg-slate-900 btn btn-circle text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full h-96 lg:h-auto">
+                  <img src="./Images/1.png" class="w-full h-52 lg:h-auto" />
+                  <!-- badge -->
+                  <div class="absolute top-1/2 lg:bottom-5 lg:right-14">
+                        <div class="rounded-lg lg:card w-full lg:w-96 bg-base-100 shadow-xl bg-slate-900">
+                            <div class="p-5 lg:card-body text-white">
+                                <h2 class="text-2xl font-semibold lg:card-title">Meet all the heroes from the field</h2>
+                                <p class="text-base font-normal text-slate-500">
+                                    Discover the champions who redefine the game. Our site brings you face-to-face with hockey's finest, sharing stories of skill, dedication, and triumph that resonate on and off the field
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="absolute flex transform w-full h-full lg:h-auto items-end justify-center -translate-y-1/2 lg:justify-start lg:left-14 lg:right-5 lg:bottom-5 bottom-1 space-x-3">
+                    <a href="#slide1" class="bg-slate-900 btn btn-circle text-white">❮</a> 
+                    <a href="#slide1" class="bg-slate-900 btn btn-circle text-white">❯</a>
+                  </div>
+                </div>
+
+        </section>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- professionals hockeys club -->
+        <section>
+            <div>
+                <!-- text -->
+                <div></div>
+                <!-- progress -->
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+
+    </footer>
+</body>
+</html>
